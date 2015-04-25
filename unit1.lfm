@@ -1,0 +1,78 @@
+object Form1: TForm1
+  Left = 391
+  Height = 630
+  Top = 106
+  Width = 492
+  Caption = 'Form1'
+  ClientHeight = 630
+  ClientWidth = 492
+  LCLVersion = '1.2.6.0'
+  object Memo1: TMemo
+    Left = 15
+    Height = 399
+    Top = 210
+    Width = 468
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 147
+    Top = 25
+    Width = 339
+    Caption = 'this is my pipi'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 16
+    Height = 22
+    Top = 24
+    Width = 120
+    TabOrder = 2
+    Text = 'name'
+  end
+  object Edit2: TEdit
+    Left = 16
+    Height = 22
+    Top = 56
+    Width = 120
+    TabOrder = 3
+    Text = 'sure name'
+  end
+  object Edit3: TEdit
+    Left = 16
+    Height = 22
+    Top = 88
+    Width = 120
+    TabOrder = 4
+    Text = 'age'
+  end
+  object Edit4: TEdit
+    Left = 16
+    Height = 22
+    Top = 120
+    Width = 120
+    TabOrder = 5
+    Text = 'gender'
+  end
+  object Edit5: TEdit
+    Left = 16
+    Height = 22
+    Top = 150
+    Width = 120
+    TabOrder = 6
+    Text = 'phone'
+  end
+  object Button2: TButton
+    Left = 16
+    Height = 17
+    Top = 184
+    Width = 467
+    Caption = 'Print out database'
+    OnClick = Button2Click
+    TabOrder = 7
+  end
+end
